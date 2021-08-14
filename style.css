@@ -1,0 +1,91 @@
+body{
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    margin-top: 6rem;
+    width: 35%;
+    border-radius: 5px;
+    height: 26rem;
+    color: #fff !important;
+}
+
+.lead{
+    opacity: 60%;
+}
+
+.btn{
+    width: 100% !important;
+}
+
+.btn1{
+    background-color: #d6d6d6;
+    color: #000000;
+    text-align: center;
+    border-radius: 3px;
+}
+
+:hover.btn1{
+    background-color: #0a1288;
+    color: #ffff;
+    transition: 0.9s;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.badge.badge-success{
+    background-color: rgb(233, 152, 3) !important;
+    color: #000000;
+}
+
+
+
+@media only screen and (max-width: 360px) {
+
+    .container{
+        margin-top: 2rem;
+        width: 85%;
+        height: 26rem;
+    }
+
+    .lead {
+        font-size: 11px;
+
+    }
+    h3{
+        font-size: 23px;
+
+    }
+
+   
+
+  }
+
+
+
+@media only screen and (max-width: 985px) {
+
+    .container{
+        margin-top: 2rem;
+        width: 85%;
+        height: 26rem;
+    }
+
+    .lead {
+        font-size: 11px;
+
+    }
+    h3{
+        font-size: 23px;
+
+    }
+
+
+  }
+  
